@@ -13,7 +13,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import java.sql.*
-;public class LoginPage implements ActionListener{
+;
+public class LoginPage implements ActionListener{
 
 	JFrame frame = new JFrame();
 	JButton signinButton = new JButton("SIGN IN");
@@ -42,7 +43,7 @@ import java.sql.*
 		welcomeLabel.setFont(new Font("MV Boli", Font.BOLD, 27));
 		
 		atmLabel.setBounds(120,50,50,50);
-		
+	
 		cardLabel.setBounds(150,100,200,100);
 		cardLabel.setFont(new Font("MV Boli", Font.BOLD, 20));
 		cardField.setBounds(275,132,250,35);
@@ -97,7 +98,8 @@ import java.sql.*
 		}
 		
 		if(e.getSource() == signupButton) {
-			SignUp signUp = new SignUp();
+			//SignUp signUp = new SignUp();
+			new SignUp();
 		}
 		
 		if(e.getSource() == signinButton) {

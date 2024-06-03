@@ -17,8 +17,3 @@ public class Conn {
 }
 
 }
-// Hey copilot
-// i have created database using datagrip now how do i connect and use it here
-// i have created a database named bankmanagementsystem
-// and a table named login
-// Your answer:
